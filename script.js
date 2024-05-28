@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('loading-bar').style.width = width + '%';
             document.getElementById('loading-text').innerText = width + '%';
         }
-    }, 10); 
+    }, 20); 
 });
