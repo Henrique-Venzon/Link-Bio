@@ -14,7 +14,7 @@ body {
     background-color: #151515;
     width: 100vw;
     min-height: 100vh;
-
+    
 }
 
 a {
@@ -68,7 +68,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .8rem;
+    padding: 1rem;
 }
 
 .content {
@@ -379,7 +379,7 @@ a {
 }
 @media only screen and (min-width: 1025px){
     .container {
-        max-width: 700px;
+        max-width: 650px;
     }
     .img-tread {
         height: 200PX;
@@ -398,6 +398,8 @@ a {
     }
     .widget4 {
         height: 13%;
-        
+    }
+    .content {
+        min-width: 400px;
     }
 }
