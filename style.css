@@ -290,7 +290,7 @@ a {
 }
 
 .skills-icons .fa-github:hover {
-    color: #181717;
+    color: #000000;
 }
 .skills-icons .fa-database:hover{
     color: #dada00;
@@ -379,7 +379,7 @@ a {
 }
 @media only screen and (min-width: 1025px){
     .container {
-        max-width: 600px;
+        max-width: 800px;
     }
     .img-tread {
         height: 160PX;
@@ -401,5 +401,71 @@ a {
     }
     .content {
         min-width: 360px;
+    }
+    .widget1 {
+        height: 50%;
+        padding: 1.5rem;
+    }
+    .widget2 {
+        height: 50%;
+    }
+    .img-user {
+        width: 100px;
+        height: 100px;
+    }
+    .name-user h1 {
+        font-size: 2.2rem;
+    }
+    
+    .name-user span {
+        font-size: 1.4rem;
+    }
+    .widget3 {
+        width: 100%;
+        height: 25%;
+        border-radius: 12px;
+        padding: 1rem;
+    }
+    .destaque {
+        color: var(--color-white);
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding-bottom: 0.3rem;
+    }
+    
+    .skills-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .skills-icons i {
+        color: #fff;
+        font-size: 2rem;
+        transition: color 0.3s;
+    }
+    .widget4 {
+        width: 100%;
+        height: 20%;
+    }
+    
+    .meu-portifolio img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .meu-portifolio h1 {
+        font-size: 2rem;
+    }
+    .widget5 {
+        height: 20%;
+    }
+    
+    .widget5 h1 {
+        font-size: 2rem;
+    }
+    .widget5 p{
+        font-size: 1rem;
     }
 }
